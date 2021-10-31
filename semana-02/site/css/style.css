@@ -6,6 +6,7 @@
 
 h1 {
   font-size: 30px;
+  font-family: 'Audiowide', cursive;
 }
 
 h1 a, h1 a:visited {
@@ -27,6 +28,8 @@ h2 a, h2 a:visited {
 h2 {
   font-size: 24px;
   background-color: lightskyblue;
+
+  border-radius: 5px;
 }
 
 h1, h2, a, a:visited {
@@ -48,4 +51,9 @@ a:hover {
 #copyright {
   font-weight: bold;
   font-style: italic;
+}
+
+.material-icons, p {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
