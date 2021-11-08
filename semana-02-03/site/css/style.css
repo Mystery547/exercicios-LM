@@ -1,0 +1,117 @@
+* {
+  font-family: Arial, sans-serif;
+  color: darkslategrey;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Audiowide', cursive;
+}
+
+h1 a, h1 a:visited {
+  color: white;
+}
+
+/* h1 a:hover, h2 a:hover {
+  color: darkblue;
+} */
+
+h1:hover a, h2:hover a {
+  color: darkblue;
+}
+
+h2 a, h2 a:visited {
+  color: lightskyblue;
+}
+
+h2 {
+  font-size: 24px;
+  background-color: lightskyblue;
+
+  border-radius: 5px;
+}
+
+h1, h2, a, a:visited {
+  color: darkblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#copyright {
+  font-weight: bold;
+  font-style: italic;
+}
+
+i.material-icons, p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+i.material-icons {
+  color: darkblue;
+}
+
+.btn {
+  font-size: 1.3rem;
+  color: darkblue;
+}
+
+.btn i {
+  color: darkblue;
+}
+
+.btn:hover {
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+}
+
+.btn:hover i {
+  color: white;
+}
+
+#social {
+  text-align: center;
+}
+
+#social i {
+  font-size: 2rem;
+}
+
+#social i.fa-facebook-square, #social i.fa-linkedin {
+  color: navy;
+}
+
+#social i.fa-twitter-square {
+  color: dodgerblue;
+}
+
+@media print {
+  *, h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1.text-center {
+    text-align: left;
+  }
+
+  h2 {
+    background-color: unset;
+  }
+
+  h2 a, a.topo {
+    color: white;
+  }
+}
