@@ -1,0 +1,27 @@
+html {
+  background-color: rgb(233, 233, 233);
+}
+
+.container {
+  width: 50%;
+  height: 15rem;
+  min-width: 300px;
+  margin: 50px auto auto auto;
+
+  text-align: center;
+
+  background-color: rgb(216, 216, 216);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.exercise-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+}
